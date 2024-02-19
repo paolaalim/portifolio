@@ -17,7 +17,7 @@
 
 @media (max-width: 1200px){
     .cabecalho{
-        padding: 10%;
+        padding: 5%;
     }
     .cabecalho__menu{
         justify-content: center;
@@ -25,22 +25,13 @@
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
+        width: 100%;
+        padding: 0; /* ou remova completamente o padding */
+        margin: 0;
     }
     .apresentacao__conteudo {
-        width: auto;
-    }
-}
-@media (max-width: 480px) {
-    .cabecalho {
-        padding: 5% 2%;
-    }
+        width: 100%;
 
-    .cabecalho__menu {
-        gap: 10px;
-    }
-
-    .apresentacao {
-        padding: 7% 3%;
     }
 }
 
@@ -138,7 +129,7 @@ span{
 }
 
 .apresentacao__conteudo__texto {
-    font-size: large;
+    font-size: 1.5rem;
     font-family: var(--font-secundaria);
 }
 
