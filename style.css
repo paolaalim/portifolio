@@ -30,9 +30,19 @@
         width: auto;
     }
 }
-    
+@media (max-width: 480px) {
+    .cabecalho {
+        padding: 5% 2%;
+    }
 
+    .cabecalho__menu {
+        gap: 10px;
+    }
 
+    .apresentacao {
+        padding: 7% 3%;
+    }
+}
 
 .cabecalho {
     padding: 2% 0% 0% 12%;
