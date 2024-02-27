@@ -164,6 +164,10 @@ span{
     .cabecalho__menu{
         justify-content: center;
     }
+    .cabecalho__menu__link {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
     .apresentacao{
         flex-direction: column-reverse;
         padding: 2% ;
