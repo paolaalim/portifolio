@@ -173,6 +173,10 @@ span{
     .apresentacao__conteudo{
         width: auto;
     }
+    .apresentacao__imagem__curriculo{
+        top: 0px;
+        width: 60%;
+    }
     
 }
 
