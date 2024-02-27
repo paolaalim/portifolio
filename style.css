@@ -6,28 +6,6 @@
     padding: 0;
 }
 
-
-
-@media (max-width: 1200px){
-    .cabecalho{
-        padding: 5%;
-    }
-    .cabecalho__menu{
-        justify-content: center;
-    }
-    .apresentacao{
-        flex-direction: column-reverse;
-        padding: 0% ;
-        width: 100%;
-
-    } 
-    .apresentacao__conteudo{
-        width: auto;
-
-    }
-    
-}
-
 :root {
     --cor-primaria: #1B4242;
     --cor-secundaria:#9EC8B9 ;
@@ -179,5 +157,22 @@ span{
     font-weight: 400;
 }
 
+@media (max-width: 1200px){
+    .cabecalho{
+        padding: 5%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 2% ;
+        width: 100%;
 
+    } 
+    .apresentacao__conteudo{
+        width: auto;
+    }
+    
+}
 
